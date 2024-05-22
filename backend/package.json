@@ -1,12 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
+<<<<<<< HEAD
+=======
+  "description": "",
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --port 3000"
   },
   "keywords": [],
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "description": ""
+=======
+  "license": "ISC"
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
 }

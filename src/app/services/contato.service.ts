@@ -8,9 +8,17 @@ import { Observable } from 'rxjs';
 })
 export class ContatoService {
 
+<<<<<<< HEAD
   private readonly API = 'http://localhost:3000/contatos';
 
   constructor(private http: HttpClient) {}
+=======
+  private readonly API = 'http://localhost:3000/contatos'
+
+  constructor(private http: HttpClient) {
+
+  }
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
 
   obterContatos(): Observable<Contato[]> {
     return this.http.get<Contato[]>(this.API);
@@ -19,6 +27,7 @@ export class ContatoService {
   salvarContato(contato: Contato) {
     return this.http.post<Contato>(this.API, contato)
   }
+<<<<<<< HEAD
 
   buscarPorId(id: number): Observable<Contato>{
     const url = `${this.API}/${id}`
@@ -43,3 +52,7 @@ export class ContatoService {
     }
   }
 }
+=======
+}
+
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2

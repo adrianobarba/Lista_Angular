@@ -10,7 +10,11 @@ import { SeparadorComponent } from '../../componentes/separador/separador.compon
 import { FormularioContatoComponent } from '../formulario-contato/formulario-contato.component';
 import { ContatoService } from '../../services/contato.service';
 import { Contato } from '../../componentes/contato/contato';
+<<<<<<< HEAD
 import { PerfilContatoComponent } from '../perfil-contato/perfil-contato.component';
+=======
+
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
 
 @Component({
   selector: 'app-lista-contatos',
@@ -37,7 +41,11 @@ export class ListaContatosComponent implements OnInit{
   constructor(private contatoService: ContatoService) {}
 
   ngOnInit() {
+<<<<<<< HEAD
     this.contatoService.obterContatos().subscribe(listaContatos => {
+=======
+    this.contatoService.obterContatos().subscribe(listaContatos =>{
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
       this.contatos = listaContatos;
     });
   }

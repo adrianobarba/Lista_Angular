@@ -20,6 +20,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 .contato ul img {
@@ -31,3 +32,6 @@
   height: 50px;
   object-fit: cover;
 }
+=======
+}
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2

@@ -1,9 +1,13 @@
 <app-container>
+<<<<<<< HEAD
   <app-cabecalho
     [telaInicial]="true"
     [bannerSrc]="'assets/banner.png'"
     [titulo]="'Organize, conecte, simplifique!'">
   </app-cabecalho>
+=======
+  <app-cabecalho></app-cabecalho>
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
 
   <input
     type="search"
@@ -23,6 +27,7 @@
       {{ letra }}
     </app-separador>
     @for (contato of filtrarContatosPorLetraInicial(letra); track contato.id) {
+<<<<<<< HEAD
       <app-contato
         [nome]="contato.nome"
         [telefone]="contato.telefone"
@@ -33,3 +38,9 @@
   }
 </app-container>
 
+=======
+      <app-contato [nome]="contato.nome" [telefone]="contato.telefone" ></app-contato>
+    }
+  }
+</app-container>
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2

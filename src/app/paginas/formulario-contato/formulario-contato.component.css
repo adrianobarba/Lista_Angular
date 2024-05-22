@@ -165,6 +165,7 @@ input:focus {
   cursor:not-allowed;
 }
 
+<<<<<<< HEAD
 .imagem-contato {
   width: 104px;
   height: 104px;
@@ -211,3 +212,10 @@ input:focus {
   margin: 0 0 16px 0;
   }
 
+=======
+.mensagem-erro {
+  font-size: 16px;
+  color: red;
+  margin-bottom: 12px;
+}
+>>>>>>> e589f8ce0999bee9a7bbd396e15fa59b1a1bc8d2
